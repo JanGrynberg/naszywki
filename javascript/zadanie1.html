@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script src="js/zadanie1.js"></script>
+  <link rel="stylesheet" href="css/zadanie1.css">
+  <title></title>
+</head>
+
+<body>
+  <div id="phones">
+    <table>
+      <thead>
+        <tr>
+          <td>Nazwa</td>
+          <td>Cena</td>
+          <td>Pamięć</td>
+          <td>System operacyjny</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="selected">Xiaomi Mi 10T</td>
+          <td>1899</td>
+          <td>32</td>
+          <td>Android 10</td>
+        </tr>
+        <tr>
+          <td>Samsung Galaxy A72</td>
+          <td>1799</td>
+          <td>8</td>
+          <td>Android 11</td>
+        </tr>
+        <tr>
+          <td>OPPO Reno5</td>
+          <td>1999</td>
+          <td>64</td>
+          <td>Android 11</td>
+        </tr>
+        <tr>
+          <td>Apple iPhone 11</td>
+          <td>2999</td>
+          <td>64</td>
+          <td>Apple A13 Bionic</td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="data">
+      Cena: 1899<br>
+      Pamięć: 32<br>
+      System: Android 10
+    </div>
+    <button id="buttonPrev" type="button" name="button" onclick="prev()" disabled>prev</button>
+    <button id="buttonNext" type="button" name="button" onclick="next()">next</button>
+  </div>
+</body>
+
+</html>
